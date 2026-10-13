@@ -67,8 +67,8 @@ export default function Home() {
   const [satellite, setSatellite] = useState(false);
 
   // Map styles
-  const darkStyle = "mapbox://styles/delecive/cmc3s3q3101vs01s67ouvbc4c";
-  const lightStyle = "mapbox://styles/delecive/cmc3s07z9014101rx5r1f3brc";
+  const darkStyle = "mapbox://styles/mapbox/dark-v11";
+  const lightStyle = "mapbox://styles/mapbox/light-v11";
 
   const geocoder = new GeocodingCore({ accessToken: accessToken });
 
